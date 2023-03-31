@@ -26,14 +26,19 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp \
-        autoreporting.cpp
+        autoreporting.cpp \
+    login.cpp \
+    myprocess.cpp
 
 HEADERS += \
-        autoreporting.h
+        autoreporting.h \
+    login.h \
+    myprocess.h
 
 FORMS += \
-        autoreporting.ui
-RC_ICONS = pkq.ico
+        autoreporting.ui \
+    login.ui
+RC_ICONS = guns.ico
 
 INCLUDEPATH +=D:\OpenCV-MinGW-Build-OpenCV-3.4.5\include\
               D:\OpenCV-MinGW-Build-OpenCV-3.4.5\include\opencv
